@@ -1,8 +1,12 @@
 import streamlit as st
 from predict_MLR import show_predict_MLR
 from predict_RLR import show_predict_RLR
+from predict_ENR import show_predict_ENR
+from predict_RF import show_predict_RF
 
 st.header("Forecasting Solar Photovoltaics (PV) Power Generation Using Machine Learning")
+
+st.subheader("Select a Machine Learning Model")
 
 st.sidebar.image("Picture1.jpg", use_column_width=True)
 
@@ -23,3 +27,5 @@ with st.sidebar:
 
 show_predict_MLR()
 show_predict_RLR()
+show_predict_ENR()
+show_predict_RF()

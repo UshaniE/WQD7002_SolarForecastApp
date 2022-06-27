@@ -15,8 +15,7 @@ from datetime import timedelta
 #from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
-# Standard scaler for preprocessing
-from sklearn.preprocessing import StandardScaler
+
 
 
 # Functions
